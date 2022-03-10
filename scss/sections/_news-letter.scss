@@ -1,0 +1,16 @@
+@use '../custom' as *;
+@use '../components/mixins' as*;
+
+.news-letter{
+    @include gradient;
+    color: #FFFFFF;
+    font-family: minion-3, serif;
+    color: $pantone;
+}
+
+@media(min-width: 768px) {
+    .news-input {
+        width: 50%;
+    }
+}
+

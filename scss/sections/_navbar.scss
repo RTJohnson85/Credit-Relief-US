@@ -1,0 +1,48 @@
+@use '../custom' as*;
+@use '../components/mixins' as*;
+
+.menu{
+    @include gradient;
+
+    li{
+        padding: 0 0.7rem;
+
+        a{
+            color: $pantone !important;
+            text-transform: capitalize;
+            font-weight: 300;
+            
+        }
+    }
+}
+// Menu Dropdown hover
+@media only screen and (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+      display: block;
+      opacity: 0;
+      visibility: hidden;
+      transition: 0.3s;
+      margin-top: 0;
+    }
+    .navbar .nav-item:hover .nav-link {
+      color: black;
+     
+    }
+  
+    .navbar .dropdown-menu.fade-down {
+      top: 80%;
+      transform: rotateX(-75deg);
+      transform-origin: 0% 0%;
+      
+    }
+  
+    .navbar .nav-item:hover .dropdown-menu {
+      transition: 0.3s;
+      opacity: 7;
+      visibility: visible;
+      top: 100%;
+      transform: rotatX(0deg);
+      background: rgba(255, 255, 255, .98);
+      ;
+    }
+  }

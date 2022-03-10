@@ -1,0 +1,50 @@
+@use '../custom' as *;
+@use '../components/mixins' as*;
+
+header {
+    background: no-repeat center center;
+    background-size: cover;
+    .text1{
+        color: #FFFFFF;
+        font-family: minion-3, serif;
+        text-shadow: 3px 5px 2px #474747;
+        color: #FFFFFF;
+          
+      }
+    
+
+  }
+
+.intro-section {
+    background-color: rgba(0,0,0,0.1);
+    min-height: 60vh;
+    
+}
+
+// Putting the Button on the Sticky Image
+
+.img-wrapper {
+    position: relative;
+    box-shadow: 10px 10px 5px grey;
+  }
+  
+  .img-responsive {
+    width: 100%;
+    height: auto;
+  }
+  
+  .img-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+  
+  .img-overlay:before {
+    content: " ";
+    display: block;
+    /* adjust 'height' to position overlay content vertically */
+    height: 70%;
+  }

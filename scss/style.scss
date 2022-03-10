@@ -1,0 +1,24 @@
+
+@use 'custom';
+
+//import the components
+
+@use 'components/buttons';
+@use 'components/animations';
+@use 'components/typography';
+@use 'components/mixins';
+
+
+//import the sections
+@use 'sections/navbar';
+@use 'sections/intro-section';
+@use 'sections/faq';
+@use 'sections/testimonials';
+@use 'sections/our-company';
+@use 'sections/debt-resources';
+@use 'sections/the-uscr-program';
+@use 'sections/news-letter';
+@use 'sections/learn';
+@use 'sections/footer';
+@use 'sections/privacy';
+@use 'sections/multi-step'

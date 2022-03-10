@@ -1,0 +1,13 @@
+@use '../custom' as*;
+@use '../components/mixins' as*;
+
+footer{
+    .accordion-button {
+        display: block;
+      
+    }
+    .accordion-button.collapsed {
+        color: white;
+        background: grey;
+    }
+}

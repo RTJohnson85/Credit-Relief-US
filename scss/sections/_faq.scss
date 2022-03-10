@@ -1,0 +1,15 @@
+
+ @use '../custom' as *;
+ @use '../components/mixins' as*;
+
+ .faq{
+    @include gradient;
+        h1{
+        color: #FFFFFF;
+        font-family: minion-3, serif;
+        text-shadow: 3px 5px 2px #474747;
+        color: #FFFFFF;
+        }
+
+}
+

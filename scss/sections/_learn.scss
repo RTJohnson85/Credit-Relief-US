@@ -1,0 +1,9 @@
+@use '../custom' as *;
+@use '../components/mixins' as*;
+
+.learn{
+    @include gradient;
+    color: #FFFFFF;
+    font-family: minion-3, serif;
+    color: black;
+}
