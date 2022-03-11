@@ -613,12 +613,13 @@
                 <div class="col-md p-5">
                     <h2>Bankruptcy</h2>
                     <p class="lead">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam eum maxime molestias neque
-                        officia perferendis, quaerat quia quidem quos sapiente. Accusamus est nemo reiciendis suscipit.
+                        Bankruptcy can be a scary word, but it’s an important tool in your financial toolbox. We help
+                        you determine if bankruptcy is the right path for you and whether Chapter 7 or Chapter 13 is the
+                        right fit for your needs.
                     </p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad assumenda autem commodi
-                        deleniti deserunt doloremque facere id impedit, ipsum labore nulla perferendis quaerat quibusdam
-                        quis ratione tempore veniam voluptatum!
+                    <p>Filing for bankruptcy gives you immediate relief from creditor phone calls and harassment. It
+                        also allows you to discharge some debts completely while restructuring others. You also usually
+                        get to keep your home, vehicle, and other important assets.
                     </p>
                     <div class="btn-submit">
                         <a href="debt-strategy.html" class="btn btn-light mt-3"><span>Read More</span></a>
@@ -717,10 +718,12 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p class="lead text-center">Fill Out this form to becom debt free</p>
-                <form action="" method="post"> 
+                <p class="lead text-center">Fill Out this form to become debt free</p>
+                <form action="" method="post">
                     <!---Honey Pot-->
-                    <input type="text" name="_honey" style="display: None;">
+                    <label for="honeypot" class="visually-hidden">Honey</label>
+                    <input type="text" name="_honey" id="honeypot" class="visually-hidden">
+
 
                     <select class="form-select form-select mb-3" aria-label=".form-select-lg example">
                         <option selected>Choose your debt amount</option>
@@ -731,10 +734,11 @@
                         <option value="40000">Over $40,000</option>
                     </select>
                     <div class="mb-3">
-                        <input type="text" name="first_name" class="form-control" id="first-name" placeholder="First Name">
+                        <input type="text" name="first_name" class="form-control" id="first-name"
+                            placeholder="First Name">
                     </div>
                     <div class="mb-3">
-                        <input type="text" name="last_name"class="form-control" id="last-name" placeholder="Last Name">
+                        <input type="text" name="last_name" class="form-control" id="last-name" placeholder="Last Name">
                     </div>
                     <div class="mb-3">
                         <input type="text" name="email" class="form-control" id="email" placeholder="Enter your Email">
