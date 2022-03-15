@@ -11472,6 +11472,11 @@ header .text1 {
   min-height: 60vh;
 }
 
+.splash-page {
+  background-color: rgba(0, 0, 0, 0.1);
+  min-height: 100vh;
+}
+
 .img-wrapper {
   position: relative;
   box-shadow: 10px 10px 5px grey;
