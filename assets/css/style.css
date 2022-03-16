@@ -11209,13 +11209,12 @@ textarea.form-control-lg {
   justify-content: center;
 }
 .btn-ping .button {
+  max-width: 300px;
   min-width: 300px;
-  min-height: 60px;
+  min-height: 65px;
   font-family: "Nunito", sans-serif;
-  font-size: 22px;
   text-transform: uppercase;
   letter-spacing: 1.3px;
-  font-weight: 500;
   color: #313133;
   background: #4FD1C5;
   background: linear-gradient(90deg, #81e6d9 0%, #4fd1c5 100%);
@@ -11231,8 +11230,9 @@ textarea.form-control-lg {
 .btn-ping button::before {
   content: "";
   border-radius: 1000px;
-  min-width: 410px;
-  min-height: 72px;
+  max-width: 300px;
+  min-width: 312px;
+  min-height: 76px;
   border: 6px solid #00FFCB;
   box-shadow: 0 0 60px rgba(0, 255, 203, 0.64);
   position: absolute;
@@ -11286,13 +11286,11 @@ textarea.form-control-lg {
   justify-content: center;
 }
 .btn-ping-two .button {
-  min-width: 300px;
-  min-height: 60px;
+  max-width: 300px;
+  min-height: 64px;
   font-family: "Nunito", sans-serif;
-  font-size: 22px;
   text-transform: uppercase;
   letter-spacing: 1.3px;
-  font-weight: 500;
   color: #313133;
   background: #4FD1C5;
   background: linear-gradient(90deg, #81e6d9 0%, #4fd1c5 100%);
@@ -11308,11 +11306,11 @@ textarea.form-control-lg {
 .btn-ping-two button::before {
   content: "";
   border-radius: 1000px;
-  min-width: 436px;
-  min-height: 72px;
+  max-width: 312px;
+  min-height: 76px;
   border: 6px solid #00FFCB;
   box-shadow: 0 0 60px rgba(0, 255, 203, 0.64);
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -11321,7 +11319,7 @@ textarea.form-control-lg {
 }
 .btn-ping-two .button:hover, .btn-ping-two .button:focus {
   color: #313133;
-  transform: translateY(-6px);
+  transform: translateY(-3px);
 }
 .btn-ping-two button:hover::before, .btn-ping-two button:focus::before {
   opacity: 1;
