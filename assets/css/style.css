@@ -11532,6 +11532,7 @@ footer .accordion-button.collapsed {
 
 .card-form.active {
   animation: slide 250ms 125ms ease-in-out both;
+  max-width: 500px;
 }
 
 .multi-step-form {
@@ -11696,7 +11697,7 @@ button {
   background: #f1c40f;
   display: block;
   position: absolute;
-  padding-top: 300%;
+  padding-top: 100%;
   padding-left: 350%;
   margin-left: -20px !important;
   margin-top: -120%;
@@ -11709,6 +11710,58 @@ button {
   margin: 0;
   opacity: 1;
   transition: 0s;
+}
+
+@media only screen and (max-width: 600px) {
+  .img-posted {
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .img-posted {
+    width: 260px;
+  }
+
+  .button-four {
+    position: relative;
+    background-color: #f39c12;
+    border: none;
+    padding: 5px;
+    max-width: 500px;
+    text-align: center;
+    font-weight: bold;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+  }
+
+  .button-four:hover {
+    background: #fff;
+    box-shadow: 0px 2px 10px 5px #97B1BF;
+    color: #000;
+  }
+
+  .button-four:after {
+    content: "";
+    background: #f1c40f;
+    display: block;
+    position: absolute;
+    padding-top: 100%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s;
+  }
+
+  .button-four:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

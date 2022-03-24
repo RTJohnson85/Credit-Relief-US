@@ -46,6 +46,7 @@
   
   .card-form.active {
     animation: slide 250ms 125ms ease-in-out both;
+    max-width: 500px;
   }
   
   .multi-step-form {
@@ -218,7 +219,7 @@ button{
   background: #f1c40f;
   display: block;
   position: absolute;
-  padding-top: 300%;
+  padding-top: 100%;
   padding-left: 350%;
   margin-left: -20px !important;
   margin-top: -120%;
